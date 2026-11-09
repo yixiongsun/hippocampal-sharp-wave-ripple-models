@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+results/
+
+# Excluded directories and archives
+/audits/
+/comparisons/
+/Model.zip
+
+# Environments, build products, and local configuration
+.venv/
+venv/
+.tools/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
